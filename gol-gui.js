@@ -33,7 +33,7 @@ function drawGrid() {
 drawGrid();
 
 var doAnimate = false;
-var fps = 3.0;
+var fps = 4.0;
 function animate() {
     if(doAnimate) {
 	drawGrid();
