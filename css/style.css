@@ -1,0 +1,28 @@
+
+body {
+    background-color: black;
+    color: white;
+    margin: 15px;
+}
+
+/*
+@font-face {
+  font-family: arcade;
+  src: url(arcade.ttf);
+}
+*/
+
+div,p,h1,canvas {
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 3em;
+/*    font-family: arcade; */
+}
+
+a {
+    color: white;
+}
+
+

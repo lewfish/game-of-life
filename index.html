@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>the game of life</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body id="home">
+
+	<h1>the game of life</h1>
+	<canvas id="grid-canvas" width="800" height="400"></canvas>
+	<div id="controller">
+	  <button type="button" id="start-button">start</button>
+	  <button type="button" id="stop-button">stop</button>
+	  <button type="button" id="reset-button">reset</button>
+	</div>
+
+	<p>
+	  <a href = "http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">info</a> and <a href="https://github.com/lewfish/game-of-life">code</a>
+	</p>
+
+	<script src="./gol.js"></script>
+	<script src="./gol-gui.js"></script>
+
+</body>
+</html>
